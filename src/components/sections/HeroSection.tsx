@@ -10,7 +10,8 @@ export interface HeroSectionProps {
   onOpenResume: () => void;
 }
 
-export const HeroSection: React.FC<HeroSectionProps> = ({ onOpenResume }) => {
+export const HeroSection: React.FC<HeroSectionProps> = ({ onOpenResume: _onOpenResume }) => {
+
   const containerVariants = {
     hidden: { opacity: 0 },
     visible: {
@@ -64,7 +65,7 @@ export const HeroSection: React.FC<HeroSectionProps> = ({ onOpenResume }) => {
               <h1 className="text-4xl sm:text-5xl lg:text-6xl font-heading font-bold text-content-primary tracking-tight leading-[1.08]">
                 I turn complex data into{' '}
                 <span className="text-accent-lime underline decoration-accent-lime/40 decoration-wavy decoration-2 underline-offset-8">
-                  clear decisions.
+                  actionable insights.
                 </span>
               </h1>
               <p className="text-lg sm:text-xl text-content-secondary max-w-2xl leading-relaxed font-sans pt-2">
@@ -76,38 +77,60 @@ export const HeroSection: React.FC<HeroSectionProps> = ({ onOpenResume }) => {
             <motion.div variants={itemVariants} className="flex flex-wrap gap-2.5 pt-1">
               <div className="flex items-center gap-2 px-3 py-1.5 rounded-md bg-surface-card border border-border-subtle text-xs font-mono text-content-secondary hover:border-accent-lime/40 transition-colors">
                 <Database className="w-3.5 h-3.5 text-accent-lime" />
-                <span>SQL & dbt Marts</span>
+                <span>SQL, PostgreSQL & dbt</span>
               </div>
               <div className="flex items-center gap-2 px-3 py-1.5 rounded-md bg-surface-card border border-border-subtle text-xs font-mono text-content-secondary hover:border-accent-lime/40 transition-colors">
                 <LineChart className="w-3.5 h-3.5 text-accent-lime" />
-                <span>Customer Churn & RFM</span>
+                <span>Power BI, DAX & RFM</span>
               </div>
               <div className="flex items-center gap-2 px-3 py-1.5 rounded-md bg-surface-card border border-border-subtle text-xs font-mono text-content-secondary hover:border-accent-lime/40 transition-colors">
                 <Code2 className="w-3.5 h-3.5 text-accent-lime" />
-                <span>Full-Stack SaaS Apps</span>
+                <span>Python & XGBoost ML</span>
               </div>
             </motion.div>
 
-            {/* Action Buttons */}
-            <motion.div variants={itemVariants} className="flex flex-wrap items-center gap-4 pt-2">
+            {/* Action Buttons: 3 Prominent CTAs */}
+            <motion.div variants={itemVariants} className="flex flex-wrap items-center gap-3.5 pt-2">
               <Button
                 variant="primary"
                 size="lg"
                 href="#work"
                 iconRight={<ArrowDown className="w-4 h-4" />}
               >
-                Explore My Work
+                View Projects
               </Button>
 
-              <Button
-                variant="secondary"
-                size="lg"
-                onClick={onOpenResume}
-                iconLeft={<FileText className="w-4 h-4 text-accent-lime" />}
+              <a
+                href={PROFILE.contact.resumePath}
+                download="md-zaid-haque-resume.pdf"
+                className="inline-flex items-center justify-center font-heading font-semibold text-sm tracking-tight rounded-md px-5 py-3 bg-surface-elevated text-content-primary hover:bg-surface-card border border-border-subtle hover:border-accent-lime/50 transition-colors shadow-subtle gap-2"
               >
-                Download CV
+                <FileText className="w-4 h-4 text-accent-lime" />
+                <span>Download Resume</span>
+              </a>
+
+              <Button
+                variant="outline"
+                size="lg"
+                href="#contact"
+              >
+                Contact Me
               </Button>
             </motion.div>
+
+            {/* Compact Tech Stack Strip */}
+            <motion.div variants={itemVariants} className="pt-3 flex flex-wrap items-center gap-2 text-xs font-mono text-content-muted">
+              <span className="text-content-secondary font-semibold">Core Stack:</span>
+              {['Python', 'SQL', 'Power BI', 'dbt', 'PostgreSQL', 'Excel', 'XGBoost', 'JavaScript'].map((tech) => (
+                <span
+                  key={tech}
+                  className="px-2 py-0.5 rounded bg-surface-elevated border border-border-subtle/70 text-content-secondary"
+                >
+                  {tech}
+                </span>
+              ))}
+            </motion.div>
+
 
             {/* Micro-Metrics Row */}
             <motion.div

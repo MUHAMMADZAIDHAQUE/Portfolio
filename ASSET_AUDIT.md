@@ -79,8 +79,10 @@ All outbound links, API endpoints, and social channels were validated for syntax
 | **Customer360 Health Check** | `https://customer360-api-u4k0.onrender.com/health` | HTTPS JSON API Endpoint | **Verified Active** |
 | **Customer360 GitHub Repo** | `https://github.com/MUHAMMADZAIDHAQUE/Customer360` | Public Repository | **Verified Active** |
 | **Developer GitHub Profile** | `https://github.com/MUHAMMADZAIDHAQUE` | Public Profile | **Verified Active** |
-| **Developer LinkedIn Profile** | `https://www.linkedin.com/in/md-zaid-haque` | Public Profile | **Verified Active** |
-| **Direct Contact Email** | `mdzaidhaque.dev@gmail.com` | `mailto:` protocol | **Verified Active** |
+| **Developer LinkedIn Profile** | `https://www.linkedin.com/in/mdzaidhaque` | Public Profile | **Verified Active** |
+
+| **Direct Contact Email** | `mdzaidhaque4@gmail.com` | `mailto:` protocol | **Verified Active** |
+
 
 ---
 

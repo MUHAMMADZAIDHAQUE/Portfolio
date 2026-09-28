@@ -75,7 +75,8 @@ All routes were inspected across standard screen breakpoints:
 
 ### C. Downloadable Assets & Clipboard Actions
 - [x] **Resume Download**: Download links in navigation, hero, modal, and contact sections reliably download `Md_Zaid_Haque_Resume.pdf`.
-- [x] **One-Click Email Copy**: Clicking "Copy Email" copies `mdzaidhaque.dev@gmail.com` to the system clipboard and displays a 2.5-second success checkmark state.
+- [x] **One-Click Email Copy**: Clicking "Copy Email" copies `mdzaidhaque4@gmail.com` to the system clipboard and displays a 2.5-second success checkmark state.
+
 - [x] **Pre-filled Contact Form**: Submitting the contact form opens the user's default email client with properly URI-encoded subject and body strings.
 
 ---

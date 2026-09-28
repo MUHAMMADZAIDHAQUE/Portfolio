@@ -110,20 +110,36 @@ export const ResumeModal: React.FC<ResumeModalProps> = ({ isOpen, onClose }) => 
             <h2 className="font-mono text-xs text-accent-lime uppercase tracking-wider font-semibold border-b border-border-subtle/60 pb-1">
               EDUCATION
             </h2>
-            <div className="flex flex-col sm:flex-row sm:items-center justify-between">
-              <div>
-                <h3 className="font-heading font-bold text-content-primary text-base">
-                  {PROFILE.education.institution}
-                </h3>
-                <div className="text-sm text-content-secondary">
-                  {PROFILE.education.degree}
+            <div className="space-y-3">
+              <div className="flex flex-col sm:flex-row sm:items-center justify-between">
+                <div>
+                  <h3 className="font-heading font-bold text-content-primary text-base">
+                    National Institute of Technology Durgapur
+                  </h3>
+                  <div className="text-sm text-content-secondary">
+                    Bachelor of Technology in Biotechnology
+                  </div>
+                </div>
+                <div className="font-mono text-xs text-content-muted mt-1 sm:mt-0">
+                  2023 – 2027
                 </div>
               </div>
-              <div className="font-mono text-xs text-content-muted mt-1 sm:mt-0">
-                {PROFILE.education.period}
+              <div className="flex flex-col sm:flex-row sm:items-center justify-between">
+                <div>
+                  <h3 className="font-heading font-bold text-content-primary text-sm">
+                    Dr. Zameer Ahsan High School, Jahanabad
+                  </h3>
+                  <div className="text-xs text-content-secondary">
+                    Class XII
+                  </div>
+                </div>
+                <div className="font-mono text-xs text-content-muted mt-1 sm:mt-0">
+                  2022
+                </div>
               </div>
             </div>
           </div>
+
 
           {/* Projects */}
           <div className="space-y-4">
@@ -203,12 +219,13 @@ export const ResumeModal: React.FC<ResumeModalProps> = ({ isOpen, onClose }) => 
           <div className="flex items-center gap-2">
             <a
               href={PROFILE.contact.resumePath}
-              download="Md_Zaid_Haque_Resume.pdf"
+              download="md-zaid-haque-resume.pdf"
               className="inline-flex items-center justify-center font-heading font-semibold text-xs tracking-tight rounded-md px-3.5 py-1.5 bg-accent-lime text-background hover:bg-accent-hover transition-colors shadow-subtle gap-1.5"
             >
               <Download className="w-3.5 h-3.5" />
               <span>Download PDF File</span>
             </a>
+
             <Button variant="secondary" size="sm" onClick={onClose}>
               Close Preview
             </Button>

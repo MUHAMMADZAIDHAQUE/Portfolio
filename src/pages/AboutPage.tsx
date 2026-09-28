@@ -89,11 +89,12 @@ export const AboutPage: React.FC<AboutPageProps> = ({ onOpenResume: _onOpenResum
               variant="primary"
               size="md"
               href={PROFILE.contact.resumePath}
-              download="Md_Zaid_Haque_Resume.pdf"
+              download="md-zaid-haque-resume.pdf"
               iconLeft={<FileText className="w-4 h-4" />}
             >
               Download Full CV (PDF)
             </Button>
+
             <Button
               variant="secondary"
               size="md"

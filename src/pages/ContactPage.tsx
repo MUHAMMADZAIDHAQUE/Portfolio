@@ -183,7 +183,7 @@ export const ContactPage: React.FC<ContactPageProps> = ({ onOpenResume: _onOpenR
                 {/* Resume Download Link */}
                 <a
                   href={PROFILE.contact.resumePath}
-                  download="Md_Zaid_Haque_Resume.pdf"
+                  download="md-zaid-haque-resume.pdf"
                   className="p-3 rounded-lg bg-accent-muted border border-accent-lime/30 hover:border-accent-lime flex items-center justify-between transition-all group block"
                 >
                   <div className="flex items-center gap-3">
@@ -195,6 +195,7 @@ export const ContactPage: React.FC<ContactPageProps> = ({ onOpenResume: _onOpenR
                   </div>
                   <ArrowUpRight className="w-3.5 h-3.5 text-accent-lime" />
                 </a>
+
               </div>
             </Card>
           </div>

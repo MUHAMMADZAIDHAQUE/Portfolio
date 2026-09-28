@@ -159,11 +159,12 @@ This application is configured for single-click deployment to **Vercel**, **Netl
 ## 👤 Author & Contact
 
 **Md Zaid Haque**  
-- **Email**: [mdzaidhaque.dev@gmail.com](mailto:mdzaidhaque.dev@gmail.com)  
+- **Email**: [mdzaidhaque4@gmail.com](mailto:mdzaidhaque4@gmail.com)  
 - **GitHub**: [@MUHAMMADZAIDHAQUE](https://github.com/MUHAMMADZAIDHAQUE)  
-- **LinkedIn**: [linkedin.com/in/md-zaid-haque](https://www.linkedin.com/in/md-zaid-haque)  
-- **Education**: B.Tech in Biotechnology, National Institute of Technology (NIT) Durgapur (2023–2027)  
-- **Primary Roles**: Entry-Level Data Analyst • Software Developer • Analytics Engineer
+- **LinkedIn**: [linkedin.com/in/mdzaidhaque](https://www.linkedin.com/in/mdzaidhaque)  
+- **Education**: Bachelor of Technology in Biotechnology, National Institute of Technology Durgapur (2023–2027)  
+- **Primary Roles**: Data Analyst • Business Intelligence Analyst • Junior Data Analyst • Software Developer
+
 
 ---
 
