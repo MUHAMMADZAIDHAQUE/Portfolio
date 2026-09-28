@@ -4,25 +4,33 @@ import { SKILL_CATEGORIES } from '../../data/skills';
 import { SectionHeader } from '../ui/SectionHeader';
 import { Card } from '../ui/Card';
 import { Tag } from '../ui/Tag';
-import { Database, LineChart, Code2, Cloud, Sparkles, CheckCircle2 } from 'lucide-react';
+import { Database, LineChart, Code2, Layers, Cpu, Sparkles, CheckCircle2 } from 'lucide-react';
+
 
 export const SkillsSection: React.FC = () => {
   const [activeCategory, setActiveCategory] = useState<string>('all');
 
   const getCategoryIcon = (id: string) => {
     switch (id) {
-      case 'data-analytics':
-        return <Database className="w-4 h-4 text-accent-lime" />;
-      case 'machine-learning':
-        return <LineChart className="w-4 h-4 text-accent-lime" />;
-      case 'software-dev':
+      case 'programming':
         return <Code2 className="w-4 h-4 text-accent-lime" />;
-      case 'tools-cloud':
-        return <Cloud className="w-4 h-4 text-accent-lime" />;
+      case 'data-analysis':
+        return <LineChart className="w-4 h-4 text-accent-lime" />;
+      case 'bi-analytics':
+        return <Layers className="w-4 h-4 text-accent-lime" />;
+      case 'databases':
+        return <Database className="w-4 h-4 text-accent-lime" />;
+      case 'data-engineering':
+        return <Cpu className="w-4 h-4 text-accent-lime" />;
+      case 'machine-learning':
+        return <Sparkles className="w-4 h-4 text-accent-lime" />;
+      case 'tools-apis':
+        return <Code2 className="w-4 h-4 text-accent-lime" />;
       default:
         return <Sparkles className="w-4 h-4 text-accent-lime" />;
     }
   };
+
 
   const displayedCategories =
     activeCategory === 'all'
