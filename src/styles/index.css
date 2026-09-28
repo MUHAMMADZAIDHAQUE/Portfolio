@@ -1,0 +1,27 @@
+@import './tokens.css';
+@import './base.css';
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  /* Container system with editorial margins */
+  .layout-container {
+    @apply w-full max-w-7xl mx-auto px-4 sm:px-6 lg:px-8;
+  }
+
+  .layout-container-narrow {
+    @apply w-full max-w-5xl mx-auto px-4 sm:px-6 lg:px-8;
+  }
+
+  /* Editorial Section Spacing */
+  .section-spacing {
+    @apply py-16 sm:py-24 lg:py-32;
+  }
+
+  /* Subtle border line system */
+  .divider-subtle {
+    @apply w-full h-[1px] bg-border-subtle;
+  }
+}

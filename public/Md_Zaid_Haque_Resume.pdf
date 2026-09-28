@@ -1,0 +1,97 @@
+%PDF-1.4
+1 0 obj
+<< /Type /Catalog /Pages 2 0 R >>
+endobj
+2 0 obj
+<< /Type /Pages /Kids [3 0 R] /Count 1 >>
+endobj
+3 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Contents 4 0 R /Resources << /Font << /F1 5 0 R /F2 6 0 R >> >> >>
+endobj
+4 0 obj
+<< /Length 1200 >>
+stream
+BT
+/F1 18 Tf
+50 740 Td
+(Md Zaid Haque) Tj
+/F2 10 Tf
+0 -18 Td
+(Data Analyst & Software Developer | Jamshedpur, Jharkhand, India) Tj
+0 -14 Td
+(Email: mdzaidhaque.dev@gmail.com | GitHub: github.com/MUHAMMADZAIDHAQUE) Tj
+0 -24 Td
+/F1 12 Tf
+(EDUCATION) Tj
+/F2 10 Tf
+0 -16 Td
+(National Institute of Technology (NIT) Durgapur) Tj
+0 -14 Td
+(B.Tech in Biotechnology (2023 - 2027)) Tj
+0 -24 Td
+/F1 12 Tf
+(TECHNICAL SKILLS) Tj
+/F2 10 Tf
+0 -16 Td
+(Programming: Python, SQL, JavaScript, C) Tj
+0 -14 Td
+(Data Analysis: Pandas, NumPy, EDA, statistical analysis, cleaning, visualization) Tj
+0 -14 Td
+(BI & Analytics: Power BI, DAX, Excel, KPI reporting, RFM, cohort analysis) Tj
+0 -14 Td
+(Databases: PostgreSQL, MySQL, MongoDB, DuckDB) Tj
+0 -14 Td
+(Data Engineering: dbt, data modeling, star schema, ETL/ELT, data quality validation) Tj
+0 -14 Td
+(Machine Learning: Scikit-learn, XGBoost, TreeSHAP, churn prediction) Tj
+0 -14 Td
+(Tools: Git, GitHub, Jupyter Notebook, REST APIs) Tj
+0 -24 Td
+/F1 12 Tf
+(FEATURED PROJECTS) Tj
+/F2 10 Tf
+0 -16 Td
+(1. Customer360: AI-Powered Customer Intelligence & Retention Platform) Tj
+0 -14 Td
+(   Python, SQL, PostgreSQL, dbt, DuckDB, Power BI, DAX, XGBoost, TreeSHAP, Render) Tj
+0 -14 Td
+(   1,500 customer records analyzed, RFM, cohort retention, 91.4% ML accuracy) Tj
+0 -16 Td
+(2. WanderLust: Travel & Accommodation Marketplace) Tj
+0 -14 Td
+(   Node.js, Express.js, MongoDB Atlas, EJS, JavaScript, Cloudinary, Mapbox) Tj
+0 -24 Td
+/F1 12 Tf
+(LEADERSHIP & EXTRACURRICULAR) Tj
+/F2 10 Tf
+0 -16 Td
+(- Entrepreneurship Cell (E-Cell), NIT Durgapur) Tj
+0 -14 Td
+(- Centre for Cognitive Activities (CCA), NIT Durgapur) Tj
+0 -14 Td
+(- RECstacy, Annual Cultural Festival, NIT Durgapur) Tj
+0 -14 Td
+(- Inter-NIT Cricket 2024: Vice Captain & Man of the Match in the Semifinal) Tj
+ET
+endstream
+endobj
+5 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica-Bold >>
+endobj
+6 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica >>
+endobj
+xref
+0 7
+0000000000 65535 f 
+0000000009 00000 n 
+0000000058 00000 n 
+0000000115 00000 n 
+0000000244 00000 n 
+0000001500 00000 n 
+0000001577 00000 n 
+trailer
+<< /Size 7 /Root 1 0 R >>
+startxref
+1649
+%%EOF

@@ -1,0 +1,108 @@
+/* Base styling and utilities */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  background-color: var(--bg-primary);
+  color: var(--text-primary);
+  font-family: var(--font-sans);
+  color-scheme: dark;
+  scroll-behavior: smooth;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+  *, *::before, *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+  background-color: var(--bg-primary);
+  background-image: 
+    linear-gradient(to right, rgba(42, 45, 53, 0.18) 1px, transparent 1px),
+    linear-gradient(to bottom, rgba(42, 45, 53, 0.18) 1px, transparent 1px);
+  background-size: 40px 40px;
+  background-position: center top;
+  overflow-x: hidden;
+}
+
+/* Custom Sleek Scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #08090B;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #2A2D35;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #3F4450;
+}
+
+/* Focus styling */
+:focus-visible {
+  outline: 2px solid var(--accent-lime);
+  outline-offset: 2px;
+}
+
+/* Text selections */
+::selection {
+  background-color: var(--accent-lime);
+  color: var(--text-inverse);
+}
+
+/* Restrained grid texture overlay */
+.bg-grid-subtle {
+  background-image: 
+    linear-gradient(to right, rgba(42, 45, 53, 0.22) 1px, transparent 1px),
+    linear-gradient(to bottom, rgba(42, 45, 53, 0.22) 1px, transparent 1px);
+  background-size: 32px 32px;
+}
+
+.bg-dots-subtle {
+  background-image: radial-gradient(rgba(42, 45, 53, 0.45) 1px, transparent 1px);
+  background-size: 20px 20px;
+}
+
+/* Editorial typography utilities */
+.font-display {
+  font-family: var(--font-heading);
+  letter-spacing: -0.03em;
+}
+
+.font-data {
+  font-family: var(--font-mono);
+  font-feature-settings: 'tnum' on, 'zero' on;
+}
+
+/* Crisp borders with subtle hover feedback */
+.border-editorial {
+  border: 1px solid var(--border-subtle);
+  transition: border-color var(--transition-normal);
+}
+
+.border-editorial:hover {
+  border-color: var(--border-active);
+}
+
+.border-editorial-lime:hover {
+  border-color: var(--border-accent-lime);
+}
