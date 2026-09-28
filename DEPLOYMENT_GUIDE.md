@@ -1,9 +1,9 @@
-# Vercel Production Deployment Guide
-
 **Project:** Md Zaid Haque — Personal Portfolio & Technical Case Studies  
 **Owner:** Md Zaid Haque ([@MUHAMMADZAIDHAQUE](https://github.com/MUHAMMADZAIDHAQUE))  
 **Target Platform:** [Vercel](https://vercel.com) (Global Edge Network)  
-**Status:** **Pre-Flight Validated & Ready for Production Deployment**
+**Production URL:** [https://portfolio-one-zeta-jr00f93w6l.vercel.app](https://portfolio-one-zeta-jr00f93w6l.vercel.app/)  
+**Status:** **LIVE & VERIFIED**
+
 
 ---
 

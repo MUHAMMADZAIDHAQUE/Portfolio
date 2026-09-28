@@ -8,7 +8,9 @@
 [![Vite](https://img.shields.io/badge/Vite-6-646CFF?logo=vite&logoColor=white)]()
 
 > **"I turn complex data into clear decisions."**  
-> A personal portfolio and technical case-study platform engineered for **Md Zaid Haque** — Data Analyst and Software Developer at NIT Durgapur (2023–2027).
+> A personal portfolio and technical case-study platform engineered for **Md Zaid Haque** — Data Analyst and Software Developer at NIT Durgapur (2023–2027).  
+> **Live Production URL:** [https://portfolio-one-zeta-jr00f93w6l.vercel.app](https://portfolio-one-zeta-jr00f93w6l.vercel.app/)
+
 
 ---
 
